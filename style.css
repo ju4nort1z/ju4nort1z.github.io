@@ -162,3 +162,55 @@ nav h1 {
   background: #FFFFFF;
   color: #FFCDDC;
 }
+
+.content h1 {
+  color: #FFCDDC;
+}
+
+#portfolio {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ gap: 8px;
+}
+
+#portfolio li {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#portfolio a {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ text-decoration: none;
+ color: #F685B1;
+ padding: 16px 20px;
+ font-size: 1.1rem;
+ font-weight: 500;
+ background: #FFCDDC;
+ border: 1px solid #FFCDDC;
+ border-radius: 12px;
+ transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+
+#portfolio a:hover {
+  background: #A87444;
+  color: #000000;
+  transform: translateX(4px);
+}
+
+#portfolio a::after {
+  content: "->";
+  font-size: 0.85rem;
+  opacity: 0.4;
+  transition: opacity 0.25s ease;
+  white-space: nowrap;
+}
+
+#portfolio a:hover::after {
+  opacity: 1;
+}
