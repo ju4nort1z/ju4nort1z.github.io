@@ -4,23 +4,23 @@
 
 body {
   margin: 0;
-  background: #EFE8DE;
-  color: #222;
+  background: #FFFFFF;
+  color: #FFFFFF;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #all-contents {
-  max-width: 1500px;
-  min-height: 100vh;
+  max-width: 2500px;
+  min-height: 40vh;
   margin: 0 auto;
-  padding: 32px 40px;
+  padding: 32px 100px;
 }
 
 main {
   display: grid;
   grid-template-columns: minmax(220px, 1fr) minmax(420px, 1.6fr);
   align-items: center;
-  min-height: calc(100vh - 160px);
+  min-height: calc(40vh - 160px);
   gap: clamp(32px, 5vw, 80px);
 }
 
@@ -37,17 +37,17 @@ main {
 
 h2 {
   margin: 0;
-  font-size: clamp(4rem, 10vw, 7rem);
+  font-size: clamp(4px, 5vw, 7rem);
   line-height: 0.9;
   font-weight: 900;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  color: #B1A192;
+  color: #FFCDDC;
 }
 
   .content > p {
     margin: 0;
-    color: #7D3C20;
+    color: #B7502F;
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 0.15em;
@@ -65,7 +65,7 @@ h2 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #B1A192;
+  color: #B7502F;
 }
 
 #interests ul {
@@ -78,12 +78,12 @@ h2 {
 }
 
 #interests li {
-  color: #F0CAC7;
+  color: #F685B1;
   font-size: 1rem;
   font-weight: 600;
   padding: 10px 20px;
-  background: #7D3C20;
-  border: 1px solid #EFE8DE;
+  background: #FFCDDC;
+  border: 1px solid #FFCDDC;
   border-radius: 100px;
   transition:
     background 0.25s ease,
@@ -93,15 +93,15 @@ h2 {
 }
 
 #interests li:hover {
-  background: #D48D91;
-  color: #FFFFFF;
-  border-color: #EFE8DE;
+  background: #A87444;
+  color: #000000;
+  border-color: #A87444;
   transform: translateY(-2px);
 }
 
 .sidebar-img {
-  width: 65%;
-  max-width: 760px;
+  width: 277%;
+  max-width: 900px;
   aspect-ratio: 4 / 4;
   object-fit: cover;
   display: block;
@@ -124,8 +124,8 @@ nav {
   align-items: center;
   margin-bottom: 48px;
   padding: 16px 24px;
-  background: #7D3C20;
-  border: 1px solid #EFE8DE;
+  background: #A87444;
+  border: 1px solid #A87444;
   border-radius: 12px;
 }
 
@@ -135,7 +135,7 @@ nav h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #F0CAC7;
+  color: #F4D4D9;
 }
 
 #nav-ul {
@@ -147,7 +147,7 @@ nav h1 {
 }
 
 .nav-li a {
-  color: #F0CAC7;
+  color: #000000;
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
@@ -159,6 +159,6 @@ nav h1 {
 }
 
 .nav-li a:hover {
-  background: #D48D91;
-  color: #FFFFFF;
+  background: #FFFFFF;
+  color: #FFCDDC;
 }
