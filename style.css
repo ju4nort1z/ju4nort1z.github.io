@@ -173,7 +173,7 @@ nav h1 {
  padding: 0;
  width: 180%;
  display: flex;
- flex-direction: center;
+ flex-direction: column;
  gap: 8px;
 }
 
@@ -188,8 +188,8 @@ nav h1 {
  align-items: center;
  text-decoration: none;
  color: #A7A8AC;
- padding: 16px 1px;
- font-size: 0.9rem;
+ padding: 16px 20px;
+ font-size: 1.0rem;
  font-weight: 500;
  background: #E6E7E9;
  border: 1px solid #E6E7E9;
