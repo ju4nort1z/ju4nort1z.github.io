@@ -31,33 +31,33 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-     createPlatform(130, 700, 45, 20);
-     createPlatform(200, 680, 45, 20, "cyan");
-     createPlatform(270, 655, 45, 20, "cyan");
-     createPlatform(330, 615, 45, 20, "cyan");
-     createPlatform(420, 625, 45, 20, "white");
-     createPlatform(520, 625, 45, 20, "white");
-     createPlatform(620, 625, 45, 20, "white");
-     createPlatform(720, 625, 45, 20, "white");
-     createPlatform(820, 625, 45, 20, "white");
-     createPlatform(920, 625, 45, 20, "white");
-     createPlatform(1020, 625, 45, 20, "white");
-     createPlatform(1100, 605, 45, 20, "cyan");
-     createPlatform(1170, 569, 45, 20, "cyan");
-     createPlatform(1250, 549, 45, 20, "cyan");
-     createPlatform(1335, 500, 45, 20);
+     createPlatform(48, 300, 48, 16);
+     createPlatform(135, 400, 48, 16, "cyan");
+     createPlatform(245, 400, 48, 16, "cyan");
+     createPlatform(325, 300, 48, 16, "cyan");
+     createPlatform(410, 300, 48, 16, "white");
+     createPlatform(505, 349, 48, 16, "white");
+     createPlatform(605, 349, 48, 16, "white");
+     createPlatform(700, 349, 108, 20, "white");
+     createPlatform(860, 349, 48, 16, "white");
+     createPlatform(950, 349, 48, 16, "white");
+     createPlatform(1040, 300, 48, 16, "white");
+     createPlatform(1125, 300, 48, 16, "cyan");
+     createPlatform(1215, 300, 48, 16, "cyan");
+     createPlatform(1275, 300, 48, 16, "cyan");
+     createPlatform(1353, 300, 45, 20);
     // TODO 3 - Create Collectables
-    createCollectable("diamond", 1337, 300, 0.2, 0);
-    createCollectable("kennedi", 730, 550, 0, 0);
+    createCollectable("diamond", 1355, 150, 0.2, 0);
+    createCollectable("kennedi", 790, 300, 0, 0);
     createCollectable("database", 730, 100, 0.2, 1);
-    createCollectable ("grace", 730, 500, 0, 0);
-    createCollectable("max", 178, 580, 0, 0);
-    createCollectable("steve", 1179, 470, 0, 0);
+    createCollectable ("grace", 672, 300, 0, 0);
+    createCollectable("max", 186, 300, 0, 0);
+    createCollectable("steve", 1179, 200, 0, 0);
     // TODO 4 - Create Cannons
-    createCannon("top", 1320, 1100);
-    createCannon("bottom", 610, 1100);
-    createCannon("left", 420, 1100);
-    createCannon("bottom", 760, 1100);
+    createCannon("top", 1090, 1500);
+    createCannon("bottom", 435, 1200);
+    createCannon("left", 100, 1200);
+    createCannon("bottom", 955, 1500);
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
